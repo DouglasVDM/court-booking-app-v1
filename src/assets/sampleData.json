@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "year": 2024,
+    "title": "Product Analyst",
+    "duration": "3 Years",
+    "details": "lorem ipsum, dolor sit"
+  },
+  {
+    "id": 2,
+    "year": 2024,
+    "title": "Product Analyst",
+    "duration": "3 Years",
+    "details": "lorem ipsum, dolor sit"
+  },
+  {
+    "id": 3,
+    "year": 2024,
+    "title": "Product Analyst",
+    "duration": "3 Years",
+    "details": "lorem ipsum, dolor sit"
+  },
+  {
+    "id": 4,
+    "year": 2024,
+    "title": "Product Analyst",
+    "duration": "3 Years",
+    "details": "lorem ipsum, dolor sit"
+  }
+]
