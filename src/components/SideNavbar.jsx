@@ -6,7 +6,7 @@ import {
   AiOutlineProject,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { GrProjects } from "react-icons/gr";
+import { GiTennisCourt } from "react-icons/gi";
 
 const SideNavbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -31,14 +31,14 @@ const SideNavbar = () => {
             <span className="pl-4 ">Home</span>
           </a>
           <a onClick={handleNavbar}
-            href="#work"
+            href="#court"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <GrProjects size={20} />
-            <span className="pl-4 ">Work</span>
+            <GiTennisCourt size={20} />
+            <span className="pl-4 ">Court</span>
           </a>
           <a onClick={handleNavbar}
-            href="#projects"
+            href="#court"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineProject size={20} />
@@ -71,10 +71,10 @@ const SideNavbar = () => {
             <AiOutlineHome size={20} />
           </a>{" "}
           <a
-            href="#work"
+            href="#court"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            <GrProjects size={20} />
+            <GiTennisCourt size={20} />
           </a>{" "}
           <a
             href="#projects"
